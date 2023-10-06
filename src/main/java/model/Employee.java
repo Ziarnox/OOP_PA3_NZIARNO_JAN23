@@ -8,30 +8,31 @@ public class Employee {
     private int id;
     private Position position;
     private double monthlySalary;
-    private String group;
 
-    public Employee(String name, int id, Position position, double monthlySalary, String group) {
+    public Employee(String name, int id, Position position, double monthlySalary) {
         this.name = name;
         this.id = id;
         this.position = position;
         this.monthlySalary = monthlySalary;
-        this.group = group;
     }
 
     public double getMonthlySalary() {
-        return monthlySalary;
-    }
-
-    public void setMonthlySalary(double monthlySalary) {
-        this.monthlySalary = monthlySalary;
+        switch (position) {
+            case SALES:
+                return monthlySalary + 1750;
+            case JUNIOR_OFFICE_WORKER:
+                return monthlySalary + 1250;
+            case SENIOR_OFFICE_WORKER:
+                return monthlySalary + 1700;
+            case GROUP_LEAD:
+                return 1800 + (200 * id);
+            default:
+                return monthlySalary;
+        }
     }
 
     public Position getPosition() {
         return position;
-    }
-
-    public String getGroup() {
-        return group;
     }
 
     @Override
@@ -41,7 +42,7 @@ public class Employee {
                 ", id=" + id +
                 ", position=" + position +
                 ", monthlySalary=" + monthlySalary +
-                ", group='" + group + '\'' +
                 '}';
     }
 }
+

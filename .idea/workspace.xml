@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97e37b6a-24ff-4cb7-85fe-5858ebf275aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="97e37b6a-24ff-4cb7-85fe-5858ebf275aa" name="Changes" comment="Przygotowane klasy pod projekt">
+      <change beforePath="$PROJECT_DIR$/src/main/java/EmployeeManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EmployeeManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +52,24 @@
       <option name="presentableId" value="Default" />
       <updated>1696410417131</updated>
       <workItem from="1696410418215" duration="276000" />
-      <workItem from="1696582740781" duration="2742000" />
+      <workItem from="1696582740781" duration="3067000" />
     </task>
+    <task id="LOCAL-00001" summary="Przygotowane klasy pod projekt">
+      <option name="closed" value="true" />
+      <created>1696585519803</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696585519803</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Przygotowane klasy pod projekt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Przygotowane klasy pod projekt" />
   </component>
 </project>
