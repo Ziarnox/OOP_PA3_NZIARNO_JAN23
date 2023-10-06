@@ -9,6 +9,9 @@ import java.util.stream.Collectors;
 
 public class EmployeeManagement {
     public static void main(String[] args) {
+        //walidacja id
+        //walidacja wynagrodzenia zgodzna ze stanowiskiem
+        //walidacja liderow i teamu
 
         List<Employee> employees = new ArrayList<>();
         employees.add(new Employee("Worker1", 1, Position.SALES, 1750));
@@ -39,7 +42,7 @@ public class EmployeeManagement {
         Employee highestSalaryEmployee = employees.stream()
                 .max(Comparator.comparing(Employee::getMonthlySalary))
                 .orElse(null);
-        System.out.println("Employee with the highest salary: " + highestSalaryEmployee);
+        System.out.println("Employee with the highest salary: " + highestSalaryEmployee.getName());
 
         // Task 2
         double totalSalesSalaries = employees.stream()
@@ -55,20 +58,8 @@ public class EmployeeManagement {
                 .collect(Collectors.toList());
 
         System.out.println("Office workers sorted by salary descending:");
-        officeWorkersSortedBySalaryDescending.forEach(System.out::println);
-
-        employees.stream()
-                .filter(employee -> employee.getPosition() == Position.GROUP_LEAD)
-                .forEach(employee -> {
-                    Group group = groups.stream()
-                            .filter(g -> g.getLeader() == employee)
-                            .findFirst()
-                            .orElse(null);
-                    if (group != null) {
-                        int numberOfEmployeesInGroup = group.getMembers().size();
-                        double groupLeadSalary = 1800 + (numberOfEmployeesInGroup * 200);
-                        System.out.println(employee.getName() + "'s updated salary: " + groupLeadSalary);
-                    }
-                });
+        officeWorkersSortedBySalaryDescending.forEach(employee -> {
+            System.out.println(employee.getName() + ": " + employee.getMonthlySalary());
+        });
     }
 }
