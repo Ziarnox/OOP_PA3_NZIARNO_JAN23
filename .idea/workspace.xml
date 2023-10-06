@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97e37b6a-24ff-4cb7-85fe-5858ebf275aa" name="Changes" comment="skonczenie projektu">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EmployeeManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EmployeeManagement.java" afterDir="false" />
-    </list>
+    <list default="true" id="97e37b6a-24ff-4cb7-85fe-5858ebf275aa" name="Changes" comment="poprawa i skonczenie maina" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696410417131</updated>
       <workItem from="1696410418215" duration="276000" />
-      <workItem from="1696582740781" duration="6159000" />
+      <workItem from="1696582740781" duration="6185000" />
     </task>
     <task id="LOCAL-00001" summary="Przygotowane klasy pod projekt">
       <option name="closed" value="true" />
@@ -78,7 +75,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696587506658</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="poprawa i skonczenie maina">
+      <option name="closed" value="true" />
+      <created>1696588916527</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696588916527</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +93,7 @@
     <MESSAGE value="Przygotowane klasy pod projekt" />
     <MESSAGE value="poprawka klasy employee" />
     <MESSAGE value="skonczenie projektu" />
-    <option name="LAST_COMMIT_MESSAGE" value="skonczenie projektu" />
+    <MESSAGE value="poprawa i skonczenie maina" />
+    <option name="LAST_COMMIT_MESSAGE" value="poprawa i skonczenie maina" />
   </component>
 </project>
